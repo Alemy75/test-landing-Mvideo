@@ -7,3 +7,7 @@
   - Сетка: Flexbox
 
 Cделано: Алексеев Максим Алексеевич
+
+Вконтакте: https://vk.com/id284922097
+WhatsApp: +79222645956
+Mail: is.alemy@yandex.ru
