@@ -9,7 +9,27 @@
             display: flex
             justify-content: space-between
             align-items: center
-            margin-bottom: 5px
+            margin-bottom: 40px
             img
                 margin: 0 41px
+            p
+                margin-block: 0
+@media (max-width: 999px)
+    .scanner
+        &__img
+            width: 45%
+@media (max-width: 540px)
+    .scanner
+        &__img
+            position: relative
+            width: 120%
+            margin-left: -10%
+            margin-bottom: 31px
+        &-list
+            flex-direction: column
+            &__item
+                flex-direction: column
+                img
+                    margin-bottom: 30px
+
 

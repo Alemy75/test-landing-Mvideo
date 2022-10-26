@@ -9,14 +9,16 @@
         margin-bottom: 40px
     &__list
         margin-bottom: 60px
+
 .list
+    width: 100%
     display: flex
     justify-content: space-between
     &__item1
         display: flex
         flex-direction: column
         align-items: center
-        width: 192px
+        max-width: 192px
         height: 100%
         padding: 20px 15px
         border-radius: 5px
@@ -28,7 +30,7 @@
         margin-top: 21px
         font-weight: 500
     &-item
-        width: 23%
+        max-width: 23%
         display: flex
         flex-direction: column
         align-items: center
@@ -36,5 +38,29 @@
         margin-bottom: 20px
     &-text
         width: 100%
-    
-             
+.vis2
+    display: none
+@media (max-width: 999px)
+    .list
+        flex-wrap: wrap
+        &__item1
+            max-width: 45%
+            margin-bottom: 50px
+            img
+                width: 90%
+        &-item
+            max-width: 45%
+@media (max-width: 420px)
+    .list
+        &__item1
+            max-width: 100%
+        &__itm
+            max-width: 100%
+            img
+                width: 60%
+    .vis2
+        display: flex
+    .vis1
+        display: none
+    .mb
+        margin-bottom: 40px

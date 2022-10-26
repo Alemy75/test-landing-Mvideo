@@ -1,6 +1,8 @@
 .access
     &__item
-        width: 23.3%
+        max-width: 23.3%
+    &__img
+        margin-bottom: 20px
     &-list
         display: flex
         justify-content: space-between
@@ -10,3 +12,32 @@
     &__line
         margin-top: 60px
         margin-bottom: 40px
+    &__secondtext
+        display: none
+@media (max-width: 999px)
+    .mod
+        margin-bottom: 50px
+    .access
+        &__text
+            display: none
+        &__secondtext
+            display: inline-block
+        &__item
+            max-width: 45%
+            img
+                width: 100%
+        &-list
+            flex-wrap: wrap
+@media (max-width: 560px)
+    .mod
+        max-width: 100%
+        margin-bottom: 40px
+    .access   
+        &__text2
+            font-size: 12px
+            line-height: 17px
+    .itm-mod
+        max-width: 49%
+
+
+

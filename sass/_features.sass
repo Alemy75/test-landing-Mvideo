@@ -14,4 +14,27 @@
         flex-direction: column
         width: 31.8%
         margin-bottom: 50px
+.linemod
+        display: none
+@media (max-width: 508px)
+    .features
+        &-list
+            flex-direction: column
+        &__item
+            margin-bottom: 30px
+            flex-direction: row
+            width: 100%
+            justify-content: space-between
+            p
+                width: 65%
+                font-size: 12px
+                line-height: 17px
+            img 
+                margin: 0 auto
+                width: 60px
+    .linemod
+        margin-bottom: 30px
+        display: block
+    .reverse
+        flex-direction: row-reverse
         
